@@ -1,0 +1,29 @@
+/* Autres couleurs à utiliser : 
+Button coral pink : #ff5e6c
+Sleuth yellow : #ffaaab
+*/
+
+
+body {
+    font-family: 'Old Standard TT', serif; 
+    background-color : #fff5d7; 
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 10px;
+    margin-top: 20px;
+    justify-items: center;
+    align-items: center;
+    font-size: 2vw;
+}
+
+
+#artistName {
+    font-size: 4vw;
+}
+#connectform {
+    display: flex;
+}
+
